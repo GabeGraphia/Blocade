@@ -6,6 +6,7 @@ import AceArcade from "./games/AceArcade"; // Import the game component
 
 // Update the contract address here
 const exampleContractAddress = "0x51C72848c68a965f66FA7a88855F9f7784502a7F";
+const testingRPCAdress = "0x65DfcD089DC1135F687dA33a05C66Ec6B78C802F"
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <div className="side-panel" style={{ flex: "15%" }}></div>
           <div className="main-panel" style={{ flex: "70%" }}>
             {/* Main content goes here */}
-            <AceArcade contractAddress={exampleContractAddress} />
+            <ExampleGameComponent contractAddress={exampleContractAddress} />
           </div>
           <div className="side-panel" style={{ flex: "15%" }}></div>
         </div>
